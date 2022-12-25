@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d7b5998f.css",
-    "main.js": "/portfolio/static/js/main.a5f9f544.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/dmserifdisplay-regular-webfont.woff": "/portfolio/static/media/dmserifdisplay-regular-webfont.264181e977a4afa200d3.woff",
-    "static/media/dmserifdisplay-regular-webfont.woff2": "/portfolio/static/media/dmserifdisplay-regular-webfont.031c9856d447b0f589d7.woff2",
-    "index.html": "/portfolio/index.html",
-    "main.d7b5998f.css.map": "/portfolio/static/css/main.d7b5998f.css.map",
-    "main.a5f9f544.js.map": "/portfolio/static/js/main.a5f9f544.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.4f3f09ee.css",
+    "main.js": "/static/js/main.963c4ef9.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/dmserifdisplay-regular-webfont.woff": "/static/media/dmserifdisplay-regular-webfont.264181e977a4afa200d3.woff",
+    "static/media/dmserifdisplay-regular-webfont.woff2": "/static/media/dmserifdisplay-regular-webfont.031c9856d447b0f589d7.woff2",
+    "index.html": "/index.html",
+    "main.4f3f09ee.css.map": "/static/css/main.4f3f09ee.css.map",
+    "main.963c4ef9.js.map": "/static/js/main.963c4ef9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7b5998f.css",
-    "static/js/main.a5f9f544.js"
+    "static/css/main.4f3f09ee.css",
+    "static/js/main.963c4ef9.js"
   ]
 }
