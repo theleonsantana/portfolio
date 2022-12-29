@@ -24,6 +24,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "add-domain": "echo \"leonsantana.com\" > build/CNAME",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
