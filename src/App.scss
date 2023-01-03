@@ -2,8 +2,19 @@
 @import 'scss/fonts';
 @import 'scss/responsive';
 
+$base-color-black: #0d0d0d;
+$base-color-green: #05f240;
+
+::selection {
+	background: $base-color-green; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #ffb7b7; /* Gecko Browsers */
+}
+
 // custom
 body {
+	color: $base-color-black;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -81,7 +92,7 @@ h3 {
 
 	.email-link {
 		text-decoration: none;
-		color: #333;
+		color: $base-color-black;
 		font-style: italic;
 		&:hover {
 			font-weight: bold;
@@ -90,16 +101,23 @@ h3 {
 }
 
 .item {
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 	display: inline-block;
 	width: 100%;
+	transition: 0.3s;
 	a {
 		display: grid;
 		grid-template-columns: 3fr 2fr;
 		text-decoration: none;
-		color: #333;
+		color: $base-color-black;
 		font-weight: 300;
 		align-items: center;
+		margin-bottom: 2px;
+		line-height: 2rem;
+		&:hover {
+			margin-bottom: 0;
+			border-bottom: 2px solid $base-color-green;
+		}
 		.client {
 			text-align: right;
 			@include for-size(phone-only) {
@@ -115,5 +133,5 @@ h3 {
 }
 
 .webgl {
-	position: absolute;
+	position: absolute !important;
 }

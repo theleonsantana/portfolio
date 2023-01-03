@@ -1,9 +1,9 @@
-// import { Canvas } from '@react-three/fiber';
-// import { OrbitControls } from '@react-three/drei';
-import { useLayoutEffect, useRef } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
+import { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import gsap from 'gsap';
 import './App.scss';
-// import NameRound from './components/nameRound';
+// import ThreeBackground from './components/threeBackground';
 
 function App() {
 	const app = useRef();
@@ -11,6 +11,7 @@ function App() {
 	const name = useRef();
 	const col_1 = useRef();
 	const col_2 = useRef();
+	const canvas = useRef();
 
 	useLayoutEffect(() => {
 		let ctx = gsap.context(() => {
@@ -75,16 +76,15 @@ function App() {
 			link: 'http://ormanconstruction.com/',
 		},
 	];
+
 	return (
 		<div ref={app} className="App">
-			{/* <Canvas className="webgl">
-				<ambientLight intensity={0.5} /]>
-				<spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-				<pointLight position={[-10, -10, -10]} />
-				<NameRound position={[-1.2, 0, 0]} />
-				<NameRound position={[1.2, 0, 0]} />
-				<OrbitControls />
-			</Canvas> */}
+			{/* <Canvas className="webgl" ref={canvas}> */}
+			{/* <pointLight position={[10, 10, 10]} /> */}
+			{/* <ThreeBackground /> */}
+			{/* <OrbitControls /> */}
+			{/* </Canvas> */}
+
 			<main>
 				<section>
 					<h1 ref={intro}>Welcome...</h1>
