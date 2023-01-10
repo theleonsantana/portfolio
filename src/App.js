@@ -92,20 +92,19 @@ function App() {
 					<div ref={col_1} className="about-me">
 						<h2>About Me</h2>
 						<p>
-							I am a full stack software developer with a creative mindset. I
-							approach every problem with an open mind and figuring out a
+							I am a full-stack software developer with a creative mindset. I
+							approach every problem with an open mind and figure out a
 							step-by-step solution.
 						</p>
 						<p>
 							I am a New Yorker by heart currently living in Columbus OH. I
-							graduated from the New York City University with a Bachellors in
-							Technology.
+							graduated from New York City University with a Bachelor's Degree
+							in Technology.
 						</p>
 						<p>
-							Ever since, I have progressed to software development. I've worked
-							for clients within the VR and AR industries. In additions I've
-							have managed client expectations on the digital interfaces I
-							built.
+							Ever since I have progressed to software development. I've worked
+							for clients within the VR and AR industries. In addition, I have
+							managed client expectations on the digital interfaces I built.
 						</p>
 						<p>
 							If you would like to get in touch please contact me at{' '}
